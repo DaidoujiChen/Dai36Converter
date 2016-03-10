@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C26848A1C91485800F46D19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2684891C91485800F46D19 /* AppDelegate.swift */; };
+		1C26848C1C91485800F46D19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C26848B1C91485800F46D19 /* ViewController.swift */; };
+		1C26848E1C91485800F46D19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C26848D1C91485800F46D19 /* Assets.xcassets */; };
+		1C2684911C91485800F46D19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C26848F1C91485800F46D19 /* Main.storyboard */; };
+		1C26849C1C91485800F46D19 /* Dai36ConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C26849B1C91485800F46D19 /* Dai36ConverterTests.swift */; };
+		1C2684A81C9148D500F46D19 /* ThirtySix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2684A71C9148D500F46D19 /* ThirtySix.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C2684981C91485800F46D19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C26847E1C91485800F46D19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C2684851C91485800F46D19;
+			remoteInfo = Dai36Converter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C2684861C91485800F46D19 /* Dai36Converter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dai36Converter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C2684891C91485800F46D19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1C26848B1C91485800F46D19 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1C26848D1C91485800F46D19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C2684901C91485800F46D19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1C2684921C91485800F46D19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C2684971C91485800F46D19 /* Dai36ConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dai36ConverterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C26849B1C91485800F46D19 /* Dai36ConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dai36ConverterTests.swift; sourceTree = "<group>"; };
+		1C26849D1C91485800F46D19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C2684A71C9148D500F46D19 /* ThirtySix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirtySix.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C2684831C91485800F46D19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C2684941C91485800F46D19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C26847D1C91485800F46D19 = {
+			isa = PBXGroup;
+			children = (
+				1C2684881C91485800F46D19 /* Dai36Converter */,
+				1C26849A1C91485800F46D19 /* Dai36ConverterTests */,
+				1C2684871C91485800F46D19 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C2684871C91485800F46D19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C2684861C91485800F46D19 /* Dai36Converter.app */,
+				1C2684971C91485800F46D19 /* Dai36ConverterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C2684881C91485800F46D19 /* Dai36Converter */ = {
+			isa = PBXGroup;
+			children = (
+				1C2684A61C9148C800F46D19 /* ThirtySix */,
+				1C2684891C91485800F46D19 /* AppDelegate.swift */,
+				1C26848B1C91485800F46D19 /* ViewController.swift */,
+				1C26848D1C91485800F46D19 /* Assets.xcassets */,
+				1C26848F1C91485800F46D19 /* Main.storyboard */,
+				1C2684921C91485800F46D19 /* Info.plist */,
+			);
+			path = Dai36Converter;
+			sourceTree = "<group>";
+		};
+		1C26849A1C91485800F46D19 /* Dai36ConverterTests */ = {
+			isa = PBXGroup;
+			children = (
+				1C26849B1C91485800F46D19 /* Dai36ConverterTests.swift */,
+				1C26849D1C91485800F46D19 /* Info.plist */,
+			);
+			path = Dai36ConverterTests;
+			sourceTree = "<group>";
+		};
+		1C2684A61C9148C800F46D19 /* ThirtySix */ = {
+			isa = PBXGroup;
+			children = (
+				1C2684A71C9148D500F46D19 /* ThirtySix.swift */,
+			);
+			path = ThirtySix;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C2684851C91485800F46D19 /* Dai36Converter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C2684A01C91485800F46D19 /* Build configuration list for PBXNativeTarget "Dai36Converter" */;
+			buildPhases = (
+				1C2684821C91485800F46D19 /* Sources */,
+				1C2684831C91485800F46D19 /* Frameworks */,
+				1C2684841C91485800F46D19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dai36Converter;
+			productName = Dai36Converter;
+			productReference = 1C2684861C91485800F46D19 /* Dai36Converter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1C2684961C91485800F46D19 /* Dai36ConverterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C2684A31C91485800F46D19 /* Build configuration list for PBXNativeTarget "Dai36ConverterTests" */;
+			buildPhases = (
+				1C2684931C91485800F46D19 /* Sources */,
+				1C2684941C91485800F46D19 /* Frameworks */,
+				1C2684951C91485800F46D19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C2684991C91485800F46D19 /* PBXTargetDependency */,
+			);
+			name = Dai36ConverterTests;
+			productName = Dai36ConverterTests;
+			productReference = 1C2684971C91485800F46D19 /* Dai36ConverterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C26847E1C91485800F46D19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = DaidoujiChen;
+				TargetAttributes = {
+					1C2684851C91485800F46D19 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					1C2684961C91485800F46D19 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 1C2684851C91485800F46D19;
+					};
+				};
+			};
+			buildConfigurationList = 1C2684811C91485800F46D19 /* Build configuration list for PBXProject "Dai36Converter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1C26847D1C91485800F46D19;
+			productRefGroup = 1C2684871C91485800F46D19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C2684851C91485800F46D19 /* Dai36Converter */,
+				1C2684961C91485800F46D19 /* Dai36ConverterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C2684841C91485800F46D19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C26848E1C91485800F46D19 /* Assets.xcassets in Resources */,
+				1C2684911C91485800F46D19 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C2684951C91485800F46D19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C2684821C91485800F46D19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C2684A81C9148D500F46D19 /* ThirtySix.swift in Sources */,
+				1C26848C1C91485800F46D19 /* ViewController.swift in Sources */,
+				1C26848A1C91485800F46D19 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C2684931C91485800F46D19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C26849C1C91485800F46D19 /* Dai36ConverterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C2684991C91485800F46D19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C2684851C91485800F46D19 /* Dai36Converter */;
+			targetProxy = 1C2684981C91485800F46D19 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1C26848F1C91485800F46D19 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C2684901C91485800F46D19 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1C26849E1C91485800F46D19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1C26849F1C91485800F46D19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1C2684A11C91485800F46D19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Dai36Converter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.daidouji.Dai36Converter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1C2684A21C91485800F46D19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Dai36Converter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.daidouji.Dai36Converter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1C2684A41C91485800F46D19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Dai36ConverterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.daidouji.Dai36ConverterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dai36Converter.app/Contents/MacOS/Dai36Converter";
+			};
+			name = Debug;
+		};
+		1C2684A51C91485800F46D19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Dai36ConverterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.daidouji.Dai36ConverterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dai36Converter.app/Contents/MacOS/Dai36Converter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C2684811C91485800F46D19 /* Build configuration list for PBXProject "Dai36Converter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C26849E1C91485800F46D19 /* Debug */,
+				1C26849F1C91485800F46D19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C2684A01C91485800F46D19 /* Build configuration list for PBXNativeTarget "Dai36Converter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C2684A11C91485800F46D19 /* Debug */,
+				1C2684A21C91485800F46D19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1C2684A31C91485800F46D19 /* Build configuration list for PBXNativeTarget "Dai36ConverterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C2684A41C91485800F46D19 /* Debug */,
+				1C2684A51C91485800F46D19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C26847E1C91485800F46D19 /* Project object */;
+}
