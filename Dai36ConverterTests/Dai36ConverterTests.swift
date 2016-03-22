@@ -73,4 +73,13 @@ class Dai36ConverterTests: XCTestCase {
         assert(result.value == "6295B9OG31V6", "算出結果不符")
     }
     
+    func testCalculate8() {
+        let testKey = "17A9214D-6EAF-4637-B843-6295A2E6F894"
+        var result = ThirtySix(by: "")
+        for input in testKey.componentsSeparatedByString("-") {
+            result <+= ThirtySix(by: input)
+        }
+        assert(result.value == "6295B9OG31V6", "算出結果不符")
+    }
+    
 }

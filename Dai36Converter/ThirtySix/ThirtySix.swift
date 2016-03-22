@@ -35,6 +35,11 @@ func +(left: ThirtySix, right: ThirtySix) -> ThirtySix {
     return left.add(right)
 }
 
+infix operator <+= { associativity left precedence 140 }
+func <+=(inout left: ThirtySix, right: ThirtySix) {
+    left = left + right
+}
+
 // Private Instance Method
 extension ThirtySix {
     

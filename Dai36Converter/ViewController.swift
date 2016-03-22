@@ -17,7 +17,7 @@ class ViewController: NSViewController {
         let splitInput = self.inputTextField.stringValue.componentsSeparatedByString("-")
         var result = ThirtySix(by: "")
         for input in splitInput {
-            result = result + ThirtySix(by: input)
+            result <+= ThirtySix(by: input)
         }
         self.outputTextField.stringValue = result.value
     }
